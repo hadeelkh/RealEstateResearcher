@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+	<link rel="stylesheet"  href="css/bootstrap.css">
+	<link rel="stylesheet"  href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row" id="header">
+			<div class="col-md-6"></div>
+			<div class="col-md-6 text-right text-uppercase">
+				<h1 class="text-thin title-super text-right">مثوى</h1>
+			</div>
+		</div>
+		
+		<div class="options-box">
+        <h3>ابحث عن منزلك الجديد في المحيط الذي تحب </h3>
+        <div>
+          <input id="hide-listings"   type="button" value="إخفاء">
+          <input id="show-listings"   type="button" value="إظهار عروض الايجار">
+          
+          <hr>
+          
+          <input id="toggle-drawing" type="button" >
+          <h4>ارسم محيطا ترغب بالبحث فيه </h4>
+        </div>
+        
+        <div>
+          
+        	<input id="zoom-to-area" type="button" value="تكبير">
+          <input id="zoom-to-area-text" type="text" placeholder="او أدخل منطقتك المفضلة">
+          
+        </div>
+        <hr>
+        <div>
+          
+          <select id="max-duration">
+            <option value="10">دقائق 10 </option>
+            <option value="15">15 دقيقة</option>
+            <option value="30">30 دقيقة</option>
+            <option value="60">1 ساعة</option>
+          </select>
+          <select id="mode">
+            <option value="DRIVING">قيادة</option>
+            <option value="WALKING">مشي</option>
+            <option value="BICYCLING">دراجة</option>
+            <option value="TRANSIT">نقل عام</option>
+          </select>
+          
+          <br>
+          <input id="search-within-time"   type="button" value="انطلق">
+          <input id="search-within-time-text" type="text" placeholder="مثال: أبحر الشمالية، البلد ">
+          
+          
+          
+
+          
+        </div>
+        <hr>
+        <div>
+          <input id="go-places"   type="button" value="ابحث">
+          <input id="places-search" type="text" placeholder="مثال: جامعة جدة">
+          <span class="text">بالقرب من  </span>
+        </div>
+      </div>
+      <div id="map"></div>
+	</div>
+
+    <script src="js/main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing&key=AIzaSyDJ57s-Q3X7zyWAKdqbvHNV1l1i1BJk8bg&callback=initMap">
+    </script>
+</body>
+</html>
+
