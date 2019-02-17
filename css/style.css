@@ -7,7 +7,9 @@ body{
 
 }
 h1,h2,h3{
- font-family: 'Aref Ruqaa', serif; 
+ font-family: 'Aref Ruqaa', serif;
+ text-align: center;
+ margin-bottom: 5%;
 }
 
 .text-muted{
@@ -65,37 +67,47 @@ h1 {
   text-align: center;
 }
 h4{
-	
-	padding: 5px;
-	padding-top: 3px;
-  text-align: center;
+	margin-right: 6%;
 }
       
 input[type="button"] {
-  width: 4%;
-  left: 2%;
-  position: absolute;
+  
   border: none;
   background-color: black;
   color: white;
+  margin-right: 3%;
+}
+
+input[type="text"] {
+  
+  color: black;
+  margin-right: 3%;
+}
+select{
+  margin-right: 2.1%;
+  margin-bottom: 4%;
+  width: 33%;
+  height: 20%;
 }
 
 
 #toggle-drawing{
   background: url(../img/drw.png);
-  display: inline-block;
+  
   background-position:center;
   background-repeat:no-repeat;
   background-size:contain;
-  left: 54px;
-  padding-top: 0px;
-
+  width: 4%;
+  left: 5.5%;
+  top: 40%;
+  position: absolute;
 }
 
 #hide-listings,
 #show-listings {
   position: relative;
-  width: 48%;
+  width: 46%;
+  margin-right: 3%;
 }
 
 hr {
