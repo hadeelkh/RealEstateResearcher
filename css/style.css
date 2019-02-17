@@ -58,6 +58,8 @@ h1,h2,h3{
 
 input {
   font-size: 12px;
+  text-align:right;
+  
 }
 
 h1 {
@@ -133,7 +135,6 @@ hr {
   border-radius: 3px;
   line-height: 35px;
   padding: 10px 10px 20px 10px;
-  align-content: left;
   text-align:right;
   color: black;
   width: 340px;
