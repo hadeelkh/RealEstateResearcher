@@ -499,7 +499,7 @@
         }
       }
 
-      // This function firest when the user select "go" on the places search.
+      // This function firest when the user select "عرض" on the places search.
       // It will do a nearby search using the entered query string or place.
       function textSearchPlaces() {
         var bounds = map.getBounds();
